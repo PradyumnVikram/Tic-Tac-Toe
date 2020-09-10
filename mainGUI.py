@@ -75,9 +75,7 @@ def get_moves(board, player):
 
         else:
             # if move is already done then give player another chance
-            print('Invalid Move!')
             return False
-            # that's right - I know RECURSION!!!!!
 
 
 # check if the board is full
