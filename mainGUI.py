@@ -17,7 +17,7 @@ WIDTH = 100
 HEIGHT = 100
 win_size = (310, 310)
 STAT_FONT = pygame.font.SysFont('comicsans', 80)
-pygame.display.set_caption('Maze Solver')
+pygame.display.set_caption('TicTacToe')
 win = pygame.display.set_mode(win_size)
 MARGIN = 2
 O = pygame.transform.scale(pygame.image.load(os.path.join(root, 'Data\\O.png')), (WIDTH, HEIGHT))
