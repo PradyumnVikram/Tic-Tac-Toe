@@ -161,8 +161,6 @@ def main():
         if player == 2 and val:
             player = 1
             val = False
-        for i in range(3):
-            print(board[i])
 
         # check if any winner found, returns True if there is a winner
         if winner(board):
